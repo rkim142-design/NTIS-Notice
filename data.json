@@ -1,5 +1,353 @@
 [
     {
+        "department": "기타",
+        "ministry": "기후에너지환경부",
+        "title": "2026년 3차 전력정보화 및 정책지원사업(재생에너지분야) 신규지원 대상과제 공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279597",
+        "agency": "한국에너지공단",
+        "date": "2026.09.29",
+        "appPeriod": "2026.09.29 ~ 2026.10.20",
+        "appBegin": "2026.09.29",
+        "appDue": "2026.10.20",
+        "amount": "185백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "중소벤처기업부",
+        "title": "2026년도 중소벤처기업부 혁신제품 3차 규격추가 모집 안내문",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278793",
+        "agency": "중소기업기술정보진흥원",
+        "date": "2026.09.22",
+        "appPeriod": "2026.09.22 ~ 2026.10.19",
+        "appBegin": "2026.09.22",
+        "appDue": "2026.10.19",
+        "amount": "0원"
+    },
+    {
+        "department": "기타",
+        "ministry": "우주항공청",
+        "title": "2026년 우주기술혁신인재양성사업[산학협력 연구현장 연계 고급 인력양성] 본과제 접수(설정변경)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279087",
+        "agency": "우주항공청",
+        "date": "2026.09.17",
+        "appPeriod": "2026.09.29 ~ 2026.09.29",
+        "appBegin": "2026.09.29",
+        "appDue": "2026.09.29",
+        "amount": "0원"
+    },
+    {
+        "department": "기타",
+        "ministry": "우주항공청",
+        "title": "2026년 우주기술혁신인재양성사업[산학협력 연구현장 연계 고급 인력양성] 본과제 접수",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279084",
+        "agency": "우주항공청",
+        "date": "2026.09.17",
+        "appPeriod": "2026.09.29 ~ 2026.09.30",
+        "appBegin": "2026.09.29",
+        "appDue": "2026.09.30",
+        "amount": "0원"
+    },
+    {
+        "department": "기타",
+        "ministry": "우주항공청",
+        "title": "2026년 우주기술혁신인재양성사업[산학협력 연구현장 연계 고급 인력양성] 본과제 접수",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278630",
+        "agency": "우주항공청",
+        "date": "2026.09.17",
+        "appPeriod": "2026.09.17 ~ 2026.09.30",
+        "appBegin": "2026.09.17",
+        "appDue": "2026.09.30",
+        "amount": "0원"
+    },
+    {
+        "department": "기타",
+        "ministry": "국방부",
+        "title": "26년 국방연구개발 전력지원체계사업 주관연구개발기관 선정을 위한 공고문",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277892",
+        "agency": "국방기술진흥연구소",
+        "date": "2026.09.14",
+        "appPeriod": "2026.09.14 ~ 2026.10.14",
+        "appBegin": "2026.09.14",
+        "appDue": "2026.10.14",
+        "amount": "6,742백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "행정안전부",
+        "title": "2028년도 과학수사감정기법연구개발사업 과제발굴을 위한 연구수요조사 안내",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277668",
+        "agency": "국립과학수사연구원",
+        "date": "2026.09.09",
+        "appPeriod": "2026.09.09 ~ 2026.10.07",
+        "appBegin": "2026.09.09",
+        "appDue": "2026.10.07",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "국방표준화 소요 및 연구과제 사전 의견(설문)조사",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277497",
+        "agency": "국방기술품질원",
+        "date": "2026.09.07",
+        "appPeriod": "2026.09.07 ~ 2026.09.30",
+        "appBegin": "2026.09.07",
+        "appDue": "2026.09.30",
+        "amount": "0원"
+    },
+    {
+        "department": "기타",
+        "ministry": "기후에너지환경부",
+        "title": "2026년도 산업기술R&D연구기획사업 신규지원대상 연구개발과제 공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277074",
+        "agency": "한국에너지기술평가원",
+        "date": "2026.09.07",
+        "appPeriod": "2026.09.07 ~ 2026.10.07",
+        "appBegin": "2026.09.07",
+        "appDue": "2026.10.07",
+        "amount": "185백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "행정안전부",
+        "title": "2027년 국가기록관리 활용기술 연구개발(R&D)사업 과제 수요조사",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277293",
+        "agency": "국가기록원",
+        "date": "2026.09.02",
+        "appPeriod": "2026.09.02 ~ 2026.10.02",
+        "appBegin": "2026.09.02",
+        "appDue": "2026.10.02",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "기후에너지환경부",
+        "title": "2027년도 서울지역 환경현안 해결을 위한 연구사업 과제 공모",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277216",
+        "agency": "서울녹색환경지원센터",
+        "date": "2026.09.01",
+        "appPeriod": "2026.09.14 ~ 2026.09.14",
+        "appBegin": "2026.09.14",
+        "appDue": "2026.09.14",
+        "amount": "300백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "기후에너지환경부",
+        "title": "2026년 3차 재생에너지R&D(태양광) 신규지원대상 연구개발과제 공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277080",
+        "agency": "한국에너지기술평가원",
+        "date": "2026.09.01",
+        "appPeriod": "2026.09.08 ~ 2026.10.01",
+        "appBegin": "2026.09.08",
+        "appDue": "2026.10.01",
+        "amount": "1,500백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "중소벤처기업부",
+        "title": "중소제조 특화 Multi AI Agent 개발(R&D) 점프업 Track 시행계획 공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277072",
+        "agency": "중소기업기술정보진흥원",
+        "date": "2026.08.31",
+        "appPeriod": "2026.10.01 ~ 2026.10.30",
+        "appBegin": "2026.10.01",
+        "appDue": "2026.10.30",
+        "amount": "15,600백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "국방부",
+        "title": "26년 민군기술협력 전력지원체계개발사업 주관연구개발기관 선정을 위한 공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277011",
+        "agency": "국방기술진흥연구소",
+        "date": "2026.08.31",
+        "appPeriod": "2026.08.31 ~ 2026.09.30",
+        "appBegin": "2026.08.31",
+        "appDue": "2026.09.30",
+        "amount": "10,365백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 위탁연구기관 선정을 위한 제안서 공모 (과제명: Fiber-tip 마이크로렌즈를 이용한 자유고간 광결합 모듈 소형화 연구)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277037",
+        "agency": "국방과학연구소",
+        "date": "2026.08.28",
+        "appPeriod": "2026.08.28 ~ 2026.10.08",
+        "appBegin": "2026.08.28",
+        "appDue": "2026.10.08",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 위탁연구기관 선정을 위한 제안서 공모 (과제명: 머신러닝 기반의 감응소자, 음향소재 설계기법 연구)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276972",
+        "agency": "국방과학연구소",
+        "date": "2026.08.27",
+        "appPeriod": "2026.08.27 ~ 2026.10.06",
+        "appBegin": "2026.08.27",
+        "appDue": "2026.10.06",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 위탁연구기관 선정을 위한 제안서 공모 (과제명: 플랫폼 유동소음 해석 및 머신러닝 기반 소음 추출, 제거 기법 연구)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276971",
+        "agency": "국방과학연구소",
+        "date": "2026.08.27",
+        "appPeriod": "2026.08.27 ~ 2026.10.06",
+        "appBegin": "2026.08.27",
+        "appDue": "2026.10.06",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 위탁연구기관 선정을 위한 제안서 공모 (과제명: 만타형 해양생물모사 로봇 유영 특성 기반 제어기법 연구)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276970",
+        "agency": "국방과학연구소",
+        "date": "2026.08.27",
+        "appPeriod": "2026.08.27 ~ 2026.10.06",
+        "appBegin": "2026.08.27",
+        "appDue": "2026.10.06",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 위탁연구기관 선정을 위한 제안서 공모 (과제명: 초근접 임무를 위한 비음향 탐지 모델 연구)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276969",
+        "agency": "국방과학연구소",
+        "date": "2026.08.27",
+        "appPeriod": "2026.08.27 ~ 2026.10.06",
+        "appBegin": "2026.08.27",
+        "appDue": "2026.10.06",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 위탁연구기관 선정을 위한 제안서 공모 (과제명: 해양생물모사 로봇 운용 시나리오 모델 연구)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276968",
+        "agency": "국방과학연구소",
+        "date": "2026.08.27",
+        "appPeriod": "2026.08.27 ~ 2026.10.06",
+        "appBegin": "2026.08.27",
+        "appDue": "2026.10.06",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "해양수산부",
+        "title": "2026년도 연안하구 인간-자연시스템 관리기술 개발 사업 신규과제 선정계획 재공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276813",
+        "agency": "해양수산과학기술진흥원",
+        "date": "2026.08.26",
+        "appPeriod": "2026.09.02 ~ 2026.09.09",
+        "appBegin": "2026.09.02",
+        "appDue": "2026.09.09",
+        "amount": "15,000백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "국토교통부",
+        "title": "(재공고-국-제29호) 2026년 국토교통연구기획 사업 제2차 시행 재공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276466",
+        "agency": "국토교통과학기술진흥원",
+        "date": "2026.08.20",
+        "appPeriod": "2026.08.20 ~ 2026.08.27",
+        "appBegin": "2026.08.20",
+        "appDue": "2026.08.27",
+        "amount": "630백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "기후에너지환경부",
+        "title": "2026년도 2차 신재생에너지R&D(수소) 신규지원대상 연구개발과제 재공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276295",
+        "agency": "한국에너지기술평가원",
+        "date": "2026.08.19",
+        "appPeriod": "2026.08.25 ~ 2026.09.18",
+        "appBegin": "2026.08.25",
+        "appDue": "2026.09.18",
+        "amount": "700백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 위탁연구기관 선정을 위한 제안서 공모(과제명 : 저피탐 무인편대기 온보드 AI Pilot 공중교전 비행시연)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1276386",
+        "agency": "국방과학연구소",
+        "date": "2026.08.18",
+        "appPeriod": "2026.08.18 ~ 2026.09.28",
+        "appBegin": "2026.08.18",
+        "appDue": "2026.09.28",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 위탁연구기관 선정을 위한 제안서 공모(과제명 : 차세대 항공무기체계용 첨단 항공엔진 고온부 기반기술연구)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1275899",
+        "agency": "국방과학연구소",
+        "date": "2026.08.12",
+        "appPeriod": "2026.08.12 ~ 2026.09.22",
+        "appBegin": "2026.08.12",
+        "appDue": "2026.09.22",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "우주항공청",
+        "title": "2026년도 신규프로젝트 탐색연구 재공고(다중 궤도 위성 기반 우주환경 상시 감시체계 구축 기획연구)2차 공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1275603",
+        "agency": "우주항공청",
+        "date": "2026.08.07",
+        "appPeriod": "2026.08.07 ~ 2026.09.07",
+        "appBegin": "2026.08.07",
+        "appDue": "2026.09.07",
+        "amount": "100백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "해양수산부",
+        "title": "2026년도 기관고유사업 신규 위탁연구과제 공고(~8.17.)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1275141",
+        "agency": "해양과학기술원 부설 극지연구소",
+        "date": "2026.08.03",
+        "appPeriod": "2026.08.03 ~ 2026.08.17",
+        "appBegin": "2026.08.03",
+        "appDue": "2026.08.17",
+        "amount": "260백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "방위사업청",
+        "title": "[공모] 핵심기술 연구개발 시제업체 선정을 위한 제안서 공모(과제명 : 10,000lbf급 고바이패스 터보팬 엔진 개발)",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1275114",
+        "agency": "국방과학연구소",
+        "date": "2026.07.31",
+        "appPeriod": "2026.08.10 ~ 2026.09.21",
+        "appBegin": "2026.08.10",
+        "appDue": "2026.09.21",
+        "amount": "-"
+    },
+    {
+        "department": "기타",
+        "ministry": "중소벤처기업부",
+        "title": "표준공정 기반 공정최적화 기술개발사업(공정최적화R&D) 시행계획 공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1275675",
+        "agency": "중소기업기술정보진흥원",
+        "date": "2026.07.30",
+        "appPeriod": "2026.08.10 ~ 2026.08.28",
+        "appBegin": "2026.08.10",
+        "appDue": "2026.08.28",
+        "amount": "1,250백만원"
+    },
+    {
         "department": "과학기술정보통신부",
         "title": "2026년 지역거점 AX 혁신 기술개발 사업 신규지원 대상과제 공고(표준모델 AX R&D)",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279968",
@@ -8,7 +356,8 @@
         "appPeriod": "2026.10.26 ~ 2026.11.09",
         "appBegin": "2026.10.26",
         "appDue": "2026.11.09",
-        "amount": "228,600백만원"
+        "amount": "228,600백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -19,7 +368,8 @@
         "appPeriod": "2026.10.08 ~ 2026.11.06",
         "appBegin": "2026.10.08",
         "appDue": "2026.11.06",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -30,7 +380,8 @@
         "appPeriod": "2026.10.08 ~ 2026.11.04",
         "appBegin": "2026.10.08",
         "appDue": "2026.11.04",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "보건복지부",
@@ -41,7 +392,8 @@
         "appPeriod": "2026.10.07 ~ 2026.12.31",
         "appBegin": "2026.10.07",
         "appDue": "2026.12.31",
-        "amount": "78,167백만원"
+        "amount": "78,167백만원",
+        "ministry": "보건복지부"
     },
     {
         "department": "과학기술정보통신부",
@@ -52,7 +404,8 @@
         "appPeriod": "2026.10.06 ~ 2026.11.05",
         "appBegin": "2026.10.06",
         "appDue": "2026.11.05",
-        "amount": "270백만원"
+        "amount": "270백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -63,7 +416,8 @@
         "appPeriod": "2026.10.06 ~ 2026.11.05",
         "appBegin": "2026.10.06",
         "appDue": "2026.11.05",
-        "amount": "270백만원"
+        "amount": "270백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -74,7 +428,8 @@
         "appPeriod": "2026.10.06 ~ 2026.11.05",
         "appBegin": "2026.10.06",
         "appDue": "2026.11.05",
-        "amount": "903백만원"
+        "amount": "903백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -85,7 +440,8 @@
         "appPeriod": "2026.10.06 ~ 2026.11.05",
         "appBegin": "2026.10.06",
         "appDue": "2026.11.05",
-        "amount": "1,806백만원"
+        "amount": "1,806백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -96,7 +452,8 @@
         "appPeriod": "2026.10.02 ~ 2026.10.15",
         "appBegin": "2026.10.02",
         "appDue": "2026.10.15",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "보건복지부",
@@ -107,7 +464,8 @@
         "appPeriod": "2026.10.02 ~ 2026.11.02",
         "appBegin": "2026.10.02",
         "appDue": "2026.11.02",
-        "amount": "157,590백만원"
+        "amount": "157,590백만원",
+        "ministry": "보건복지부"
     },
     {
         "department": "과학기술정보통신부",
@@ -118,7 +476,8 @@
         "appPeriod": "2026.10.01 ~ 2026.10.14",
         "appBegin": "2026.10.01",
         "appDue": "2026.10.14",
-        "amount": "570백만원"
+        "amount": "570백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -140,7 +499,8 @@
         "appPeriod": "2026.09.23 ~ 2026.09.29",
         "appBegin": "2026.09.23",
         "appDue": "2026.09.29",
-        "amount": "8,000백만원"
+        "amount": "8,000백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -151,7 +511,8 @@
         "appPeriod": "2026.09.22 ~ 2026.10.21",
         "appBegin": "2026.09.22",
         "appDue": "2026.10.21",
-        "amount": "8,580백만원"
+        "amount": "25,000백만원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -166,25 +527,27 @@
     },
     {
         "department": "보건복지부",
-        "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_(2026)2. [심화형] 첨단재생의료 임상연구 고도화 지원",
+        "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_2. [심화형] 첨단재생의료 임상연구 고도화 지원",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278131",
         "agency": "한국보건산업진흥원",
         "date": "2026.09.15",
         "appPeriod": "2026.09.15 ~ 2026.10.14",
         "appBegin": "2026.09.15",
         "appDue": "2026.10.14",
-        "amount": "4,000백만원"
+        "amount": "12,600백만원",
+        "ministry": "보건복지부"
     },
     {
         "department": "보건복지부",
-        "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고",
+        "title": "2026년도 제4차 첨단재생의료 임상연구 활성화 지원 사업 신규과제 공고_1. [일반형] 첨단재생의료 임상연구 지원",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278130",
         "agency": "한국보건산업진흥원",
         "date": "2026.09.15",
         "appPeriod": "2026.09.15 ~ 2026.10.14",
         "appBegin": "2026.09.15",
         "appDue": "2026.10.14",
-        "amount": "4,000백만원"
+        "amount": "12,600백만원",
+        "ministry": "보건복지부"
     },
     {
         "department": "과학기술정보통신부",
@@ -206,7 +569,8 @@
         "appPeriod": "2026.10.01 ~ 2026.10.14",
         "appBegin": "2026.10.01",
         "appDue": "2026.10.14",
-        "amount": "1,000백만원"
+        "amount": "1,000백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -217,29 +581,32 @@
         "appPeriod": "2026.09.11 ~ 2026.10.12",
         "appBegin": "2026.09.11",
         "appDue": "2026.10.12",
-        "amount": "12,300백만원"
+        "amount": "12,300백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
-        "title": "2026년 4극3특 동남권 과학기술혁신지원사업 연구단 모집 공고",
+        "title": "2026년 4극3특 동남권 과학기술혁신지원사업 연구단 모집 공고(발표평가 안내 추가)",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277844",
         "agency": "연구개발특구진흥재단",
         "date": "2026.09.11",
         "appPeriod": "2026.09.11 ~ 2026.10.11",
         "appBegin": "2026.09.11",
         "appDue": "2026.10.11",
-        "amount": "12,824백만원"
+        "amount": "12,330백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
-        "title": "2026년 4극3특 제주특별자치도 과학기술혁신지원사업 연구단 모집 공고",
+        "title": "2026년 4극3특 제주특별자치도 과학기술혁신지원사업 연구단 모집 공고_제주특자도 과학기술혁신지원",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277842",
         "agency": "연구개발특구진흥재단",
         "date": "2026.09.11",
-        "appPeriod": "2026.09.11 ~ 2026.10.11",
+        "appPeriod": "2026.09.11 ~ 2026.10.12",
         "appBegin": "2026.09.11",
-        "appDue": "2026.10.11",
-        "amount": "8,624백만원"
+        "appDue": "2026.10.12",
+        "amount": "8,624백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -250,7 +617,8 @@
         "appPeriod": "2026.09.11 ~ 2026.10.12",
         "appBegin": "2026.09.11",
         "appDue": "2026.10.12",
-        "amount": "4,200백만원"
+        "amount": "4,200백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -258,10 +626,11 @@
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277791",
         "agency": "한국연구재단",
         "date": "2026.09.11",
-        "appPeriod": "2026.09.21 ~ 2026.10.12",
+        "appPeriod": "2026.09.21 ~ 2026.10.13",
         "appBegin": "2026.09.21",
-        "appDue": "2026.10.12",
-        "amount": "500백만원"
+        "appDue": "2026.10.13",
+        "amount": "500백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -283,7 +652,8 @@
         "appPeriod": "2026.09.11 ~ 2026.10.12",
         "appBegin": "2026.09.11",
         "appDue": "2026.10.12",
-        "amount": "8,024백만원"
+        "amount": "8,024백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -294,7 +664,8 @@
         "appPeriod": "2026.09.14 ~ 2026.10.08",
         "appBegin": "2026.09.14",
         "appDue": "2026.10.08",
-        "amount": "1,180백만원"
+        "amount": "1,180백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -305,7 +676,8 @@
         "appPeriod": "2026.09.23 ~ 2026.10.08",
         "appBegin": "2026.09.23",
         "appDue": "2026.10.08",
-        "amount": "3,600백만원"
+        "amount": "3,600백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -316,7 +688,8 @@
         "appPeriod": "2026.09.16 ~ 2026.09.30",
         "appBegin": "2026.09.16",
         "appDue": "2026.09.30",
-        "amount": "2,800백만원"
+        "amount": "2,800백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -327,7 +700,8 @@
         "appPeriod": "2026.09.16 ~ 2026.09.30",
         "appBegin": "2026.09.16",
         "appDue": "2026.09.30",
-        "amount": "696백만원"
+        "amount": "696백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -338,7 +712,8 @@
         "appPeriod": "2026.09.16 ~ 2026.09.30",
         "appBegin": "2026.09.16",
         "appDue": "2026.09.30",
-        "amount": "19,595백만원"
+        "amount": "19,595백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -349,7 +724,8 @@
         "appPeriod": "2026.09.07 ~ 2026.10.16",
         "appBegin": "2026.09.07",
         "appDue": "2026.10.16",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -360,7 +736,8 @@
         "appPeriod": "2026.08.20 ~ 2026.09.18",
         "appBegin": "2026.08.20",
         "appDue": "2026.09.18",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -371,7 +748,8 @@
         "appPeriod": "2026.09.11 ~ 2026.09.18",
         "appBegin": "2026.09.11",
         "appDue": "2026.09.18",
-        "amount": "600백만원"
+        "amount": "600백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "보건복지부",
@@ -382,7 +760,8 @@
         "appPeriod": "2026.09.10 ~ 2026.09.30",
         "appBegin": "2026.09.10",
         "appDue": "2026.09.30",
-        "amount": "150백만원"
+        "amount": "150백만원",
+        "ministry": "보건복지부"
     },
     {
         "department": "과학기술정보통신부",
@@ -393,7 +772,8 @@
         "appPeriod": "2026.09.09 ~ 2026.10.08",
         "appBegin": "2026.09.09",
         "appDue": "2026.10.08",
-        "amount": "365백만원"
+        "amount": "365백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -404,7 +784,8 @@
         "appPeriod": "2026.08.31 ~ 2026.09.23",
         "appBegin": "2026.08.31",
         "appDue": "2026.09.23",
-        "amount": "1,700백만원"
+        "amount": "1,700백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -415,7 +796,8 @@
         "appPeriod": "2026.09.03 ~ 2026.09.30",
         "appBegin": "2026.09.03",
         "appDue": "2026.09.30",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -426,7 +808,8 @@
         "appPeriod": "2026.09.04 ~ 2026.09.14",
         "appBegin": "2026.09.04",
         "appDue": "2026.09.14",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -437,18 +820,20 @@
         "appPeriod": "2026.09.16 ~ 2026.09.30",
         "appBegin": "2026.09.16",
         "appDue": "2026.09.30",
-        "amount": "5,628백만원"
+        "amount": "5,628백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
         "title": "양자정보과학 인적기반조성사업 리더급연구역량강화(연구혁신형)  2026년도 한-캐나다 양자과학기술 공동연구사업 신규과제 공모",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277082",
         "agency": "한국연구재단",
-        "date": "2026.08.31",
-        "appPeriod": "2026.08.31 ~ 2026.10.06",
+        "date": "2026.10.07",
+        "appPeriod": "2026.08.31 ~ 2026.10.07",
         "appBegin": "2026.08.31",
-        "appDue": "2026.10.06",
-        "amount": "900백만원"
+        "appDue": "2026.10.07",
+        "amount": "900백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -459,7 +844,8 @@
         "appPeriod": "2026.09.01 ~ 2026.09.10",
         "appBegin": "2026.09.01",
         "appDue": "2026.09.10",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -470,7 +856,8 @@
         "appPeriod": "2026.08.31 ~ 2026.09.07",
         "appBegin": "2026.08.31",
         "appDue": "2026.09.07",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -481,7 +868,8 @@
         "appPeriod": "2026.09.09 ~ 2026.09.23",
         "appBegin": "2026.09.09",
         "appDue": "2026.09.23",
-        "amount": "9,167백만원"
+        "amount": "9,167백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -492,7 +880,8 @@
         "appPeriod": "2026.08.24 ~ 2026.09.23",
         "appBegin": "2026.08.24",
         "appDue": "2026.09.23",
-        "amount": "1,000백만원"
+        "amount": "1,000백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -503,7 +892,8 @@
         "appPeriod": "2026.08.31 ~ 2026.09.23",
         "appBegin": "2026.08.31",
         "appDue": "2026.09.23",
-        "amount": "1,800백만원"
+        "amount": "1,800백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -514,7 +904,8 @@
         "appPeriod": "2026.08.21 ~ 2026.09.21",
         "appBegin": "2026.08.21",
         "appDue": "2026.09.21",
-        "amount": "510백만원"
+        "amount": "510백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -525,7 +916,8 @@
         "appPeriod": "2026.08.21 ~ 2026.09.18",
         "appBegin": "2026.08.21",
         "appDue": "2026.09.18",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -536,7 +928,8 @@
         "appPeriod": "2026.08.20 ~ 2026.08.26",
         "appBegin": "2026.08.20",
         "appDue": "2026.08.26",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -547,7 +940,8 @@
         "appPeriod": "2026.08.19 ~ 2026.09.04",
         "appBegin": "2026.08.19",
         "appDue": "2026.09.04",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -558,7 +952,8 @@
         "appPeriod": "2026.08.21 ~ 2026.09.11",
         "appBegin": "2026.08.21",
         "appDue": "2026.09.11",
-        "amount": "10,000백만원"
+        "amount": "10,000백만원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -569,7 +964,8 @@
         "appPeriod": "2026.08.12 ~ 2026.08.31",
         "appBegin": "2026.08.12",
         "appDue": "2026.08.31",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -580,7 +976,8 @@
         "appPeriod": "2026.08.12 ~ 2026.08.27",
         "appBegin": "2026.08.12",
         "appDue": "2026.08.27",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -591,7 +988,8 @@
         "appPeriod": "2026.08.12 ~ 2026.08.27",
         "appBegin": "2026.08.12",
         "appDue": "2026.08.27",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -602,7 +1000,8 @@
         "appPeriod": "2026.08.12 ~ 2026.08.27",
         "appBegin": "2026.08.12",
         "appDue": "2026.08.27",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -613,7 +1012,8 @@
         "appPeriod": "2026.08.19 ~ 2026.09.16",
         "appBegin": "2026.08.19",
         "appDue": "2026.09.16",
-        "amount": "200백만원"
+        "amount": "200백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -624,7 +1024,8 @@
         "appPeriod": "2026.08.11 ~ 2026.11.04",
         "appBegin": "2026.08.11",
         "appDue": "2026.11.04",
-        "amount": "1,500백만원"
+        "amount": "1,500백만원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -635,7 +1036,8 @@
         "appPeriod": "2026.08.18 ~ 2026.09.09",
         "appBegin": "2026.08.18",
         "appDue": "2026.09.09",
-        "amount": "22,300백만원"
+        "amount": "22,300백만원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -646,7 +1048,8 @@
         "appPeriod": "2026.08.19 ~ 2026.09.09",
         "appBegin": "2026.08.19",
         "appDue": "2026.09.09",
-        "amount": "19,800백만원"
+        "amount": "19,800백만원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -657,7 +1060,8 @@
         "appPeriod": "2026.08.10 ~ 2026.08.31",
         "appBegin": "2026.08.10",
         "appDue": "2026.08.31",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -668,7 +1072,8 @@
         "appPeriod": "2026.08.24 ~ 2026.09.07",
         "appBegin": "2026.08.24",
         "appDue": "2026.09.07",
-        "amount": "900백만원"
+        "amount": "900백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -679,7 +1084,8 @@
         "appPeriod": "2026.08.21 ~ 2026.09.07",
         "appBegin": "2026.08.21",
         "appDue": "2026.09.07",
-        "amount": "1,200백만원"
+        "amount": "1,200백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -690,7 +1096,8 @@
         "appPeriod": "2026.08.06 ~ 2026.08.14",
         "appBegin": "2026.08.06",
         "appDue": "2026.08.14",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -701,7 +1108,8 @@
         "appPeriod": "2026.08.06 ~ 2026.08.19",
         "appBegin": "2026.08.06",
         "appDue": "2026.08.19",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -712,7 +1120,8 @@
         "appPeriod": "2026.08.06 ~ 2026.08.27",
         "appBegin": "2026.08.06",
         "appDue": "2026.08.27",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "보건복지부",
@@ -723,7 +1132,8 @@
         "appPeriod": "2026.08.05 ~ 2026.08.25",
         "appBegin": "2026.08.05",
         "appDue": "2026.08.25",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "보건복지부"
     },
     {
         "department": "산업통상부",
@@ -734,7 +1144,8 @@
         "appPeriod": "2026.08.11 ~ 2026.09.03",
         "appBegin": "2026.08.11",
         "appDue": "2026.09.03",
-        "amount": "21,000백만원"
+        "amount": "21,000백만원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -745,7 +1156,8 @@
         "appPeriod": "2026.08.04 ~ 2026.08.31",
         "appBegin": "2026.08.04",
         "appDue": "2026.08.31",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "산업통상부",
@@ -756,7 +1168,8 @@
         "appPeriod": "2026.08.04 ~ 2026.08.18",
         "appBegin": "2026.08.04",
         "appDue": "2026.08.18",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -767,7 +1180,8 @@
         "appPeriod": "2026.08.04 ~ 2026.08.10",
         "appBegin": "2026.08.04",
         "appDue": "2026.08.10",
-        "amount": "668백만원"
+        "amount": "668백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
@@ -778,7 +1192,8 @@
         "appPeriod": "2026.08.03 ~ 2026.08.14",
         "appBegin": "2026.08.03",
         "appDue": "2026.08.14",
-        "amount": "70백만원"
+        "amount": "70백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -789,7 +1204,8 @@
         "appPeriod": "2026.07.31 ~ 2026.08.12",
         "appBegin": "2026.07.31",
         "appDue": "2026.08.12",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -800,7 +1216,8 @@
         "appPeriod": "2026.08.03 ~ 2026.08.05",
         "appBegin": "2026.08.03",
         "appDue": "2026.08.05",
-        "amount": "251,100백만원"
+        "amount": "251,100백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
@@ -811,7 +1228,8 @@
         "appPeriod": "2026.07.29 ~ 2026.08.27",
         "appBegin": "2026.07.29",
         "appDue": "2026.08.27",
-        "amount": "50백만원"
+        "amount": "50백만원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -822,7 +1240,8 @@
         "appPeriod": "2026.07.20 ~ 2026.08.19",
         "appBegin": "2026.07.20",
         "appDue": "2026.08.19",
-        "amount": "0원"
+        "amount": "0원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "산업통상부",
