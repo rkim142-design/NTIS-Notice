@@ -6,6 +6,9 @@ on:
     - cron: '17 22 * * 0-4'
     - cron: '17 3,8 * * 1-5'
   workflow_dispatch:   # Actions 화면에서 'Run workflow' 버튼으로 바로 실행 가능
+  push:                # 수집 프로그램이나 이 설정을 고쳐 올리면 한 번 바로 실행
+    branches: [main]
+    paths: ['crawler.py', '.github/workflows/crawling.yml']
 
 concurrency:
   group: ntis-crawl
