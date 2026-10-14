@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NTIS공고</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; margin: 40px; background-color: #fff; }
+        h2 { text-align: center; color: #333; margin-bottom: 20px; }
+        
+        /* 필터 표 영역 디자인 */
+        .filter-box { width: 100%; border: 2px solid #ccc; margin-bottom: 20px; }
+        .filter-ui-table { width: 100%; border-collapse: collapse; }
+        .filter-ui-table th, .filter-ui-table td { border: 1px solid #ddd; padding: 12px 10px; text-align: center; font-size: 13px; color: #333; }
+        .filter-header { width: 120px; background-color: #f4f4f4; font-weight: bold; }
+        .filter-status, .filter-dept { cursor: pointer; background-color: #fff; transition: 0.2s; user-select: none; }
+        .filter-status:hover, .filter-dept:hover { background-color: #f9f9f9; }
+        /* 선택된 탭 스타일 (주황색) */
+        .filter-status.active, .filter-dept.active { background-color: #f36c21; color: #fff; font-weight: bold; border-color: #f36c21; }
+
+        .table-container { width: 100%; overflow-x: auto; }
+        table.data-table { width: 100%; border-collapse: collapse; min-width: 1100px; }
+        table.data-table th { border-top: 1px solid #ccc; border-bottom: 1px solid #eee; padding: 12px 8px; color: #555; font-size: 13px; font-weight: normal; user-select: none; }
+        th.sortable { cursor: pointer; color: #0066cc; font-weight: bold; }
+        th.sortable:hover { text-decoration: underline; background-color: #f9f9f9; }
+        table.data-table td { border-bottom: 1px solid #eee; padding: 14px 8px; text-align: center; font-size: 13px; color: #333; }
+        table.data-table td.title { text-align: left; font-weight: 600; color: #111; }
+        table.data-table td.title a { color: #111; text-decoration: none; }
+        table.data-table td.title a:hover { text-decoration: underline; }
+        
+        /* 배지 디자인 */
+        .status { padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; color: #fff; display: inline-block; width: 60px; text-align: center; }
+        .status.open { background-color: #007bff; }
+        .status.upcoming { background-color: #ff9800; }
+        .status.closed { background-color: #9e9e9e; }
+        .status.unknown { background-color: #e0e0e0; color: #555; }
+        .dday-text { font-weight: bold; color: #d32f2f; }
+
+        .pagination { text-align: center; margin-top: 30px; }
+        .pagination button { padding: 6px 12px; margin: 0 3px; cursor: pointer; border: 1px solid #ddd; background: #fff; border-radius: 4px; font-weight: bold; color: #555; }
+        .pagination button.active { background: #0066cc; color: #fff; border-color: #0066cc; }
+
+        /* 수집 상태 표시줄 */
+        .run-status { text-align: center; font-size: 13px; color: #666; margin: -8px 0 18px; }
+        .run-status.warn { color: #d32f2f; font-weight: bold; }
+
+        /* 검색 줄 */
+        .search-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
+        .search-row input[type=search] { flex: 1 1 260px; padding: 8px 10px; font-size: 13px; border: 1px solid #ccc; border-radius: 4px; }
+        .search-row label { font-size: 13px; cursor: pointer; user-select: none; }
+        .search-row .count { font-size: 13px; color: #666; margin-left: auto; }
+
+        /* 의사과학자 관련 공고 강조 */
+        tr.focus td { background-color: #fff6ec; }
+        .tag { display: inline-block; margin-right: 6px; padding: 1px 6px; font-size: 11px; border-radius: 3px; background: #f36c21; color: #fff; vertical-align: 1px; }
+
+        @media (max-width: 700px) { body { margin: 16px; } }
+    </style>
+</head>
+<body>
+
+    <h2>NTIS공고</h2>
+    <div class="run-status" id="run-status">수집 상태 확인 중…</div>
+
+    <div class="filter-box">
+        <table class="filter-ui-table">
+            <tr>
+                <th class="filter-header">공고현황</th>
+                <td class="filter-status active" data-val="전체" onclick="setStatus('전체')">전체</td>
+                <td class="filter-status" data-val="접수예정" onclick="setStatus('접수예정')">접수예정</td>
+                <td class="filter-status" data-val="접수중" onclick="setStatus('접수중')">접수중</td>
+                <td class="filter-status" data-val="접수마감" onclick="setStatus('접수마감')">마감</td>
+            </tr>
+        </table>
+        <table class="filter-ui-table" style="border-top: none;">
+            <tr>
+                <th class="filter-header" rowspan="2">부처명</th>
+                <!-- 요청하신 7개 부처 + 전체 (총 8개) 배치 -->
+                <td class="filter-dept active" data-val="전체" onclick="toggleDept('전체')">전체</td>
+                <td class="filter-dept" data-val="과학기술정보통신부" onclick="toggleDept('과학기술정보통신부')">과학기술정보통신부</td>
+                <td class="filter-dept" data-val="교육부" onclick="toggleDept('교육부')">교육부</td>
+                <td class="filter-dept" data-val="보건복지부" onclick="toggleDept('보건복지부')">보건복지부</td>
+            </tr>
+            <tr>
+                <td class="filter-dept" data-val="산업통상부" onclick="toggleDept('산업통상부')">산업통상부</td>
+                <td class="filter-dept" data-val="식품의약품안전처" onclick="toggleDept('식품의약품안전처')">식품의약품안전처</td>
+                <td class="filter-dept" data-val="질병관리청" onclick="toggleDept('질병관리청')">질병관리청</td>
+                <td class="filter-dept" data-val="기타" onclick="toggleDept('기타')">기타</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="search-row">
+        <input type="search" id="keyword" placeholder="공고명·공고기관 검색 (예: 인력양성, 한국보건산업진흥원)" oninput="applyFilters()">
+        <label><input type="checkbox" id="focusOnly" onchange="applyFilters()"> 의사과학자 관련만 보기</label>
+        <span class="count" id="count"></span>
+    </div>
+
+    <div class="table-container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th style="width: 5%;">번호</th>
+                    <th style="width: 7%;">상태</th>
+                    <th style="width: 12%;">부처명</th>
+                    <th style="width: 31%;">공고명</th>
+                    <th style="width: 14%;">공고기관명</th>
+                    <th style="width: 9%;">공고일</th>
+                    <th style="width: 11%;">접수기간</th>
+                    <th style="width: 6%;" class="sortable" id="ddayHeader" onclick="toggleSort()">D-Day ↕</th>
+                    <th style="width: 7%;">공고금액</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="pagination" id="pagination"></div>
+
+    <script>
+        let rawData = [];
+        let processedData = [];
+        let filteredData = [];
+        let currentPage = 1;
+        const itemsPerPage = 50;
+        
+        let currentStatus = "전체";
+        let currentDepts = new Set(["전체"]);
+        let sortState = 0; 
+
+        // 의사과학자 관련 공고를 찾는 표현 (띄어쓰기 무시)
+        const FOCUS_RE = /의사\s*과학자|임상\s*의과학자|의과학자|MD[-\/\s]?PhD|physician[-\s]?scientist/i;
+        const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+        const safeLink = u => /^https?:\/\//i.test(u || '') ? u : '#';
+
+        // 마지막 수집 시각 표시 (하루 넘게 성공 못 하면 빨간 글씨)
+        fetch('meta.json', { cache: 'no-store' })
+            .then(r => r.ok ? r.json() : null)
+            .then(meta => {
+                const el = document.getElementById('run-status');
+                if (!meta || !meta.lastRun) { el.textContent = ''; return; }
+                let text = `마지막 수집 ${meta.lastRun} · ${meta.lastResult}`;
+                if (meta.lastResult === '성공') text += ` (새 공고 ${meta.lastAdded}건)`;
+                else if (meta.lastSuccess) text += ` — 마지막 성공 ${meta.lastSuccess}`;
+                el.textContent = text;
+                const last = meta.lastSuccess ? new Date(meta.lastSuccess.replace(' ', 'T') + ':00+09:00') : null;
+                if (!last || (Date.now() - last) > 36 * 3600 * 1000) el.classList.add('warn');
+            })
+            .catch(() => { document.getElementById('run-status').textContent = ''; });
+
+        fetch('data.json', { cache: 'no-store' })
+            .then(response => response.json())
+            .then(data => {
+                rawData = data;
+                processData();
+                applyFilters();
+            })
+            .catch(error => console.error('데이터 로드 실패:', error));
+
+        function processData() {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            processedData = rawData.map((item, originalIndex) => {
+                let status = "미상";
+                let statusClass = "unknown";
+                let dDayValue = Infinity;
+                let dDayText = "-";
+
+                if (item.appBegin && item.appDue) {
+                    const beginDate = new Date(item.appBegin.replace(/\./g, '-'));
+                    const dueDate = new Date(item.appDue.replace(/\./g, '-'));
+                    beginDate.setHours(0, 0, 0, 0);
+                    dueDate.setHours(0, 0, 0, 0);
+
+                    const diffTime = dueDate - today;
+                    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+                    if (today < beginDate) {
+                        status = "접수예정";
+                        statusClass = "upcoming";
+                    } else if (today > dueDate) {
+                        status = "접수마감";
+                        statusClass = "closed";
+                    } else {
+                        status = "접수중";
+                        statusClass = "open";
+                    }
+
+                    if (status !== "접수마감") {
+                        dDayValue = diffDays;
+                        if (diffDays > 0) dDayText = `D-${diffDays}`;
+                        else if (diffDays === 0) dDayText = `D-Day`;
+                    } else {
+                        dDayText = "마감";
+                    }
+                }
+                const focus = FOCUS_RE.test(`${item.title} ${item.agency}`);
+                return { ...item, originalIndex, status, statusClass, dDayValue, dDayText, focus };
+            });
+        }
+
+        // 공고현황 단일 선택
+        function setStatus(status) {
+            currentStatus = status;
+            document.querySelectorAll('.filter-status').forEach(el => {
+                el.classList.toggle('active', el.dataset.val === status);
+            });
+            applyFilters();
+        }
+
+        // 부처명 다중 선택 (전체 선택/해제 로직 포함)
+        function toggleDept(dept) {
+            if (dept === "전체") {
+                currentDepts.clear();
+                currentDepts.add("전체");
+            } else {
+                currentDepts.delete("전체");
+                if (currentDepts.has(dept)) {
+                    currentDepts.delete(dept);
+                } else {
+                    currentDepts.add(dept);
+                }
+                // 다 해제되면 다시 '전체'로 복구
+                if (currentDepts.size === 0) {
+                    currentDepts.add("전체");
+                }
+            }
+            
+            document.querySelectorAll('.filter-dept').forEach(el => {
+                el.classList.toggle('active', currentDepts.has(el.dataset.val));
+            });
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const kw = document.getElementById('keyword').value.trim().replace(/\s+/g, '').toLowerCase();
+            const focusOnly = document.getElementById('focusOnly').checked;
+            filteredData = processedData.filter(item => {
+                const statusMatch = (currentStatus === "전체") || (item.status === currentStatus);
+                const deptMatch = currentDepts.has("전체") || currentDepts.has(item.department);
+                const kwMatch = !kw || `${item.title}${item.agency}${item.ministry || ''}`.replace(/\s+/g, '').toLowerCase().includes(kw);
+                const focusMatch = !focusOnly || item.focus;
+                return statusMatch && deptMatch && kwMatch && focusMatch;
+            });
+            document.getElementById('count').textContent = `${filteredData.length}건`;
+            currentPage = 1;
+            applySort();
+        }
+
+        function toggleSort() {
+            sortState = (sortState + 1) % 3;
+            const header = document.getElementById('ddayHeader');
+            if (sortState === 0) header.innerText = "D-Day ↕";
+            else if (sortState === 1) header.innerText = "D-Day ▲";
+            else header.innerText = "D-Day ▼";
+            applySort();
+        }
+
+        function applySort() {
+            if (sortState === 1) {
+                filteredData.sort((a, b) => a.dDayValue - b.dDayValue);
+            } else if (sortState === 2) {
+                filteredData.sort((a, b) => {
+                    if (a.dDayValue === Infinity) return 1;
+                    if (b.dDayValue === Infinity) return -1;
+                    return b.dDayValue - a.dDayValue;
+                });
+            } else {
+                filteredData.sort((a, b) => a.originalIndex - b.originalIndex);
+            }
+            displayTable();
+            displayPagination();
+        }
+
+        function displayTable() {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = "";
+            
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const paginatedItems = filteredData.slice(start, end);
+
+            if (paginatedItems.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="9" style="padding: 20px; color: #888;">조건에 맞는 공고가 없습니다.</td></tr>`;
+                return;
+            }
+
+            paginatedItems.forEach(item => {
+                const row = document.createElement('tr');
+                const itemNum = rawData.length - item.originalIndex;
+                
+                let amountDisplay = item.amount || "";
+                if (amountDisplay === "-") amountDisplay = "";
+                let periodDisplay = item.appPeriod || "";
+                if (periodDisplay === "-") periodDisplay = "";
+
+                if (item.focus) row.classList.add('focus');
+                const deptLabel = item.department === '기타' && item.ministry ? `기타 (${item.ministry})` : item.department;
+                row.innerHTML = `
+                    <td>${itemNum}</td>
+                    <td><span class="status ${item.statusClass}">${item.status}</span></td>
+                    <td>${esc(deptLabel)}</td>
+                    <td class="title">${item.focus ? '<span class="tag">의사과학자</span>' : ''}<a href="${esc(safeLink(item.link))}" target="_blank" rel="noopener">${esc(item.title)}</a></td>
+                    <td>${esc(item.agency)}</td>
+                    <td>${esc(item.date)}</td>
+                    <td>${esc(periodDisplay)}</td>
+                    <td class="dday-text">${item.dDayText}</td>
+                    <td>${esc(amountDisplay)}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function displayPagination() {
+            const pagination = document.getElementById('pagination');
+            pagination.innerHTML = "";
+            const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+            
+            if (totalPages <= 1) return;
+
+            let firstBtn = document.createElement('button');
+            firstBtn.innerText = "처음";
+            firstBtn.onclick = () => { currentPage = 1; displayTable(); displayPagination(); };
+            pagination.appendChild(firstBtn);
+
+            let prevBtn = document.createElement('button');
+            prevBtn.innerText = "이전";
+            prevBtn.onclick = () => { if(currentPage > 1) { currentPage--; displayTable(); displayPagination(); } };
+            pagination.appendChild(prevBtn);
+
+            for (let i = 1; i <= totalPages; i++) {
+                let pageBtn = document.createElement('button');
+                pageBtn.innerText = i;
+                if (i === currentPage) pageBtn.classList.add('active');
+                pageBtn.onclick = () => { currentPage = i; displayTable(); displayPagination(); };
+                pagination.appendChild(pageBtn);
+            }
+
+            let nextBtn = document.createElement('button');
+            nextBtn.innerText = "다음";
+            nextBtn.onclick = () => { if(currentPage < totalPages) { currentPage++; displayTable(); displayPagination(); } };
+            pagination.appendChild(nextBtn);
+
+            let lastBtn = document.createElement('button');
+            lastBtn.innerText = "끝";
+            lastBtn.onclick = () => { currentPage = totalPages; displayTable(); displayPagination(); };
+            pagination.appendChild(lastBtn);
+        }
+    </script>
+</body>
+</html>
