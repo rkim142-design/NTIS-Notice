@@ -1,6 +1,18 @@
 [
     {
         "department": "기타",
+        "ministry": "우주항공청",
+        "title": "2026년도 우주기술혁신인재양성(R&D)사업[우주항공 글로벌 인력양성 및 활용] 2차 추가공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277645",
+        "agency": "우주항공청",
+        "date": "2026.09.09",
+        "appPeriod": "2026.09.09 ~ 2026.10.20",
+        "appBegin": "2026.09.09",
+        "appDue": "2026.10.20",
+        "amount": "5,000백만원"
+    },
+    {
+        "department": "기타",
         "ministry": "기후에너지환경부",
         "title": "2026년도 2차 에너지수요관리핵심기술개발사업 신규지원대상 연구개발과제 공고",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1274343",
@@ -389,9 +401,9 @@
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279830",
         "agency": "한국산업기술기획평가원",
         "date": "2026.10.08",
-        "appPeriod": "2026.10.08 ~ 2026.11.04",
-        "appBegin": "2026.10.08",
-        "appDue": "2026.11.04",
+        "appPeriod": "2026.10.19 ~ 2026.11.06",
+        "appBegin": "2026.10.19",
+        "appDue": "2026.11.06",
         "amount": "0원",
         "ministry": "산업통상부"
     },
@@ -493,14 +505,15 @@
     },
     {
         "department": "산업통상부",
-        "title": "핵심광물 공급망 안정화 전주기 기술개발사업 기술수요조사 공고",
+        "title": "핵심광물 공급망 안정화 전주기 기술개발사업 기술수요조사 공고(연장)",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1278938",
         "agency": "한국산업기술기획평가원",
         "date": "2026.09.23",
-        "appPeriod": "2026.09.29 ~ 2026.10.06",
+        "appPeriod": "2026.09.29 ~ 2026.10.12",
         "appBegin": "2026.09.29",
-        "appDue": "2026.10.06",
-        "amount": "0원"
+        "appDue": "2026.10.12",
+        "amount": "0원",
+        "ministry": "산업통상부"
     },
     {
         "department": "과학기술정보통신부",
@@ -528,14 +541,15 @@
     },
     {
         "department": "과학기술정보통신부",
-        "title": "2026년 4극3특 대경권 과학기술혁신지원사업 연구단 모집 공고(서식, FAQ 추가)_(대경권) 2026년 4극3특 대경권 과학기술혁신지원사업 연구단 공고 - K-UBRC 구축",
+        "title": "2026년 4극3특 대경권 과학기술혁신지원사업 연구단 모집 공고(연장공고) - K-UBRC 구축",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1279001",
         "agency": "연구개발특구진흥재단",
         "date": "2026.09.14",
         "appPeriod": "2026.09.14 ~ 2026.10.12",
         "appBegin": "2026.09.14",
         "appDue": "2026.10.12",
-        "amount": "11,750백만원"
+        "amount": "300백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "보건복지부",
@@ -586,7 +600,7 @@
     },
     {
         "department": "과학기술정보통신부",
-        "title": "2026년 4극3특 호남권 과학기술혁신지원사업 연구단 모집 공고",
+        "title": "2026년 4극3특 호남권 과학기술혁신지원사업 연구단 모집 공고(연장공고)",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277908",
         "agency": "연구개발특구진흥재단",
         "date": "2026.09.11",
@@ -646,14 +660,15 @@
     },
     {
         "department": "과학기술정보통신부",
-        "title": "2026년 4극3특 강원특별자치도 과학기술혁신지원사업 연구단 모집공고",
+        "title": "2026년 4극3특 강원특별자치도 과학기술혁신지원사업 연구단 모집공고(연장공고)",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1277788",
         "agency": "연구개발특구진흥재단",
-        "date": "2026.09.11",
+        "date": "2026.10.13",
         "appPeriod": "2026.09.11 ~ 2026.10.11",
         "appBegin": "2026.09.11",
         "appDue": "2026.10.11",
-        "amount": "8,626백만원"
+        "amount": "8,626백만원",
+        "ministry": "과학기술정보통신부"
     },
     {
         "department": "과학기술정보통신부",
