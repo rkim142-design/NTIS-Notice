@@ -1,5 +1,29 @@
 [
     {
+        "department": "과학기술정보통신부",
+        "ministry": "과학기술정보통신부",
+        "title": "임무 중심 R&D체계 전환에 따른 출연연 기관평가 체계 개편방안 수립 지원 용역",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281612",
+        "agency": "국가과학기술연구회",
+        "date": "2026.10.28",
+        "appPeriod": "2026.10.28 ~ 2026.11.10",
+        "appBegin": "2026.10.28",
+        "appDue": "2026.11.10",
+        "amount": "15백만원"
+    },
+    {
+        "department": "과학기술정보통신부",
+        "ministry": "과학기술정보통신부",
+        "title": "「출연연 지역조직의 지역혁신 역량 고도화 방안 기획·연구」 정책연구과제 재공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281599",
+        "agency": "국가과학기술연구회",
+        "date": "2026.10.28",
+        "appPeriod": "2026.10.28 ~ 2026.11.16",
+        "appBegin": "2026.10.28",
+        "appDue": "2026.11.16",
+        "amount": "275백만원"
+    },
+    {
         "department": "산업통상부",
         "ministry": "산업통상부",
         "title": "2026년도 소재부품기술개발사업(4차) 신규지원 대상과제 공고(연장)",
