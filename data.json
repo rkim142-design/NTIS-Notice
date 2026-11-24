@@ -2,6 +2,54 @@
     {
         "department": "과학기술정보통신부",
         "ministry": "과학기술정보통신부",
+        "title": "「K-문샷 반도체 미션 성과제고를 위한 연구모델 기획 연구」 정책연구과제 재공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1283614",
+        "agency": "국가과학기술연구회",
+        "date": "2026.11.20",
+        "appPeriod": "2026.11.20 ~ 2026.11.25",
+        "appBegin": "2026.11.20",
+        "appDue": "2026.11.25",
+        "amount": "80백만원"
+    },
+    {
+        "department": "기타",
+        "ministry": "농림축산식품부",
+        "title": "2027년 농림축산검역검사기술개발사업 신규 산업체공동연구과제 참여기관 공모 재공고",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1283510",
+        "agency": "농림축산검역본부",
+        "date": "2026.11.19",
+        "appPeriod": "2026.11.19 ~ 2026.11.27",
+        "appBegin": "2026.11.19",
+        "appDue": "2026.11.27",
+        "amount": "510백만원"
+    },
+    {
+        "department": "과학기술정보통신부",
+        "ministry": "과학기술정보통신부",
+        "title": "2026년도 제5차 과학기술분야 연구기획과제 공모",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1283512",
+        "agency": "한국연구재단",
+        "date": "2026.11.13",
+        "appPeriod": "2026.11.13 ~ 2026.11.26",
+        "appBegin": "2026.11.13",
+        "appDue": "2026.11.26",
+        "amount": "50백만원"
+    },
+    {
+        "department": "산업통상부",
+        "ministry": "산업통상부",
+        "title": "(기정원 연계) 2027년도 제조AX분야 산업기술R&D사업 과제기획을 위한 기술수요조사",
+        "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1283097",
+        "agency": "한국산업기술기획평가원",
+        "date": "2026.11.13",
+        "appPeriod": "2026.11.16 ~ 2026.11.27",
+        "appBegin": "2026.11.16",
+        "appDue": "2026.11.27",
+        "amount": "0원"
+    },
+    {
+        "department": "과학기술정보통신부",
+        "ministry": "과학기술정보통신부",
         "title": "「K-문샷 BCI미션 신규사업 기획을 위한 영장류 기능 뇌지도 구축 기획 연구」 정책연구과제 공고",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1283030",
         "agency": "국가과학기술연구회",
@@ -102,9 +150,9 @@
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282913",
         "agency": "한국에너지기술평가원",
         "date": "2026.11.10",
-        "appPeriod": "2026.11.10 ~ 2026.11.16",
+        "appPeriod": "2026.11.10 ~ 2026.11.17",
         "appBegin": "2026.11.10",
-        "appDue": "2026.11.16",
+        "appDue": "2026.11.17",
         "amount": "22,944백만원"
     },
     {
@@ -146,13 +194,13 @@
     {
         "department": "산업통상부",
         "ministry": "산업통상부",
-        "title": "2027년도 소재부품기술개발사업 소부장 특화단지 R&D 기술수요조사 공고",
+        "title": "2027년도 소재부품기술개발사업 소부장 특화단지 R&D 기술수요조사 공고(연장)",
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1282515",
         "agency": "한국산업기술기획평가원",
         "date": "2026.11.09",
-        "appPeriod": "2026.11.09 ~ 2026.11.20",
+        "appPeriod": "2026.11.09 ~ 2026.12.04",
         "appBegin": "2026.11.09",
-        "appDue": "2026.11.20",
+        "appDue": "2026.12.04",
         "amount": "0원"
     },
     {
@@ -462,9 +510,9 @@
         "link": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1281018",
         "agency": "정보통신산업진흥원",
         "date": "2026.10.21",
-        "appPeriod": "2026.10.21 ~ 2026.11.17",
+        "appPeriod": "2026.10.21 ~ 2026.11.18",
         "appBegin": "2026.10.21",
-        "appDue": "2026.11.17",
+        "appDue": "2026.11.18",
         "amount": "0원"
     },
     {
